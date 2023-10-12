@@ -6,7 +6,7 @@ body, html {
 }
 
 .background-scenery {
-    background-image: url('https://www.shutterstock.com/shutterstock/videos/1015145509/thumb/1.jpg?ip=x480'); /* Replace with your desired background image. */
+    background-image: url('https://im.indiatimes.in/media/content/2012/Aug/96611967_1346147674_1346147699_460x460.jpg'); /* Replace with your desired background image URL. */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ body, html {
     width: 100%;
     height: 100%;
     z-index: -1;
-    filter: blur(0px);
+    filter: blur(0); /* Set the blur to 0 to remove the blur effect. */
 }
 
 .overlay {
@@ -36,12 +36,12 @@ body, html {
 header h1 {
     font-size: 2em;
     color: #fff;
-    opacity: 0;
+    opacity: 1; /* Change opacity to 1 to make the text fully visible. */
 }
 
 main {
     color: #fff;
-    opacity: 0;
+    opacity: 1; /* Change opacity to 1 to make the text fully visible. */
 }
 
 a img {
