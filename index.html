@@ -2,34 +2,20 @@
 <html>
 <head>
     <title>My YouTube Channel</title>
-    <style>
-        body {
-            background-image: url('chimpanzee.jpg'); /* Replace 'chimpanzee.jpg' with the actual image URL or file path. */
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        header {
-            text-align: center;
-            padding: 50px;
-            background-color: rgba(255, 255, 255, 0.7);
-        }
-        main {
-            text-align: center;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.7);
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My YouTube Channel</h1>
-    </header>
-    <main>
-        <p>Click the YouTube logo to visit my channel:</p>
-        <a href="https://www.youtube.com/@Coding_Chimp">
-            <img src="https://www.youtube.com/yt/about/media/images/brand-resources/logos/YouTube-logo-full_color-light.png" alt="YouTube Logo" width="200">
-        </a>
-    </main>
+    <div class="background-scenery"></div>
+    <div class="overlay">
+        <header>
+            <h1 class="animated fadeIn">Welcome to My YouTube Channel</h1>
+        </header>
+        <main>
+            <p>Click the YouTube logo to visit my channel:</p>
+            <a href="https://www.youtube.com/@Coding_Chimp">
+                <img src="https://www.youtube.com/yt/about/media/images/brand-resources/logos/YouTube-logo-full_color-light.png" alt="YouTube Logo" class="animated zoomIn" width="200">
+            </a>
+        </main>
+    </div>
 </body>
 </html>
