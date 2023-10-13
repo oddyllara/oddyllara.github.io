@@ -3,10 +3,24 @@ body, h1, p, ul, li, a {
     margin: 0;
     padding: 0;
 }
+
 .moving-text {
-    font-size: 15px!important; /* Adjust the font size as needed */
-    animation: moveRightToLeft 10s linear infinite;
+    font-size: 15px;
+  animation: moveText 5s linear infinite;
 }
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px); /* Adjust the distance the text should move */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 
 
 body {
@@ -99,18 +113,7 @@ footer {
 }
 /* Your existing CSS code */
 
-.moving-text {
-    animation: moveRightToLeft 15s linear infinite!important;
-}
 
-@keyframes moveRightToLeft {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
 
 .fading-text {
     font-size: 40px!important; /* Adjust the font size as needed */
