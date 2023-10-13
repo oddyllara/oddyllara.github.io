@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FF0000; /* Change link color to red on hover */
+    color:#000000; /* Change link color to red on hover ...i have set it to black*/
 }
 
 section {
