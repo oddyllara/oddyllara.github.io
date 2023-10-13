@@ -4,8 +4,8 @@ body, h1, p, ul, li, a {
     padding: 0;
 }
 .moving-text {
-    font-size: 50px; /* Adjust the font size as needed */
-    animation: moveRightToLeft 5s linear infinite;
+    font-size: 15px; /* Adjust the font size as needed */
+    animation: moveRightToLeft 10s linear infinite;
 }
 
 
@@ -112,6 +112,10 @@ footer {
     }
 }
 .fading-text {
+    animation: fadeInOut 2s ease-in-out infinite;
+}
+.fading-text {
+    font-size: 24px; /* Adjust the font size as needed */
     animation: fadeInOut 2s ease-in-out infinite;
 }
 
