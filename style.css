@@ -92,3 +92,18 @@ footer {
     bottom:  0;
     width: 100%;
 }
+/* Your existing CSS code */
+
+.moving-text {
+    animation: moveRightToLeft 5s linear infinite;
+}
+
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
