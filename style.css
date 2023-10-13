@@ -111,11 +111,10 @@ footer {
         transform: translateX(-100%);
     }
 }
-.fading-text {
-    animation: fadeInOut 2s ease-in-out infinite;
-}
+
 .fading-text {
     font-size: 40px; /* Adjust the font size as needed */
+     font-weight: bold;
     animation: fadeInOut 2s ease-in-out infinite;
 }
 
@@ -129,6 +128,7 @@ footer {
 }
 .bouncing-text {
     font-size:50px;
+    font-weight: bold;
     animation: bounceUpDown 2s ease infinite;
 }
 
