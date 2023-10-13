@@ -3,6 +3,11 @@ body, h1, p, ul, li, a {
     margin: 0;
     padding: 0;
 }
+.moving-text {
+    font-size: 24px; /* Adjust the font size as needed */
+    animation: moveRightToLeft 5s linear infinite;
+}
+
 
 body {
     font-family: 'Arial', sans-serif;
