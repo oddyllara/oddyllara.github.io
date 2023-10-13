@@ -4,7 +4,7 @@ body, h1, p, ul, li, a {
     padding: 0;
 }
 .moving-text {
-    font-size: 15px; /* Adjust the font size as needed */
+    font-size: 15px!important; /* Adjust the font size as needed */
     animation: moveRightToLeft 10s linear infinite;
 }
 
@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:#000000; /* Change link color to red on hover ...i have set it to black*/
+    color:#00FF00; /* Change link color to red on hover ...i have set it to black*/
 }
 
 section {
@@ -76,7 +76,7 @@ p {
 }
 
 .cta-button:hover {
-    background: #00FF00; /* Change button background color on hover..i have set it to green */
+    background: #000000; /* Change button background color on hover..i have set it to green */
 }
 
 
@@ -113,7 +113,7 @@ footer {
 }
 
 .fading-text {
-    font-size: 40px; /* Adjust the font size as needed */
+    font-size: 40px!important; /* Adjust the font size as needed */
      font-weight: bold;
     animation: fadeInOut 2s ease-in-out infinite;
 }
@@ -127,7 +127,7 @@ footer {
     }
 }
 .bouncing-text {
-    font-size:50px;
+    font-size:50px!important;
     font-weight: bold;
     animation: bounceUpDown 2s ease infinite;
 }
