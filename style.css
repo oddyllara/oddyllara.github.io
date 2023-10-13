@@ -100,7 +100,7 @@ footer {
 /* Your existing CSS code */
 
 .moving-text {
-    animation: moveRightToLeft 15s linear infinite;
+    animation: moveRightToLeft 15s linear infinite!important;
 }
 
 @keyframes moveRightToLeft {
