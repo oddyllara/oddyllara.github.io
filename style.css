@@ -74,16 +74,21 @@ p {
     background: #00FF00; /* Change button background color on hover..i have set it to green */
 }
 
-.video {
-    margin: 20px 0;
-}
 
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
 footer {
     background: rgba(0, 0, 0, 0.7);
     text-align: center;
     padding: 10px 0;
     color: #00FF00;
     position: absolute;
-    bottom: 2px 0;
+    bottom:  0;
     width: 100%;
 }
