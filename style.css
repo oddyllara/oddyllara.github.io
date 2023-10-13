@@ -3,11 +3,6 @@ body, h1, p, ul, li, a {
     margin: 0;
     padding: 0;
 }
-.moving-text {
-    font-size: 15px!important; /* Adjust the font size as needed */
-    animation: moveRightToLeft 10s linear infinite;
-}
-
 
 body {
     font-family: 'Arial', sans-serif;
@@ -39,7 +34,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:#000000!important; /* Change link color to red on hover ...i have set it to black*/
+    color: #000000;
 }
 
 section {
@@ -76,68 +71,12 @@ p {
 }
 
 .cta-button:hover {
-    background: #00FF00!important; /* Change button background color on hover..i have set it to green */
+    background: #00FF00;
 }
 
-
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-img {
-    max-width: 100%;
-    display: block;
-}
-footer {
-    background: rgba(0, 0, 0, 0.7);
-    text-align: center;
-    padding: 10px 0;
-    color: #00FF00;
-    position: absolute;
-    bottom:  0;
-    width: 100%;
-}
-/* Your existing CSS code */
-
-.moving-text {
-    animation: moveRightToLeft 15s linear infinite!important;
+.menu-icon {
+    display: none;
 }
 
-@keyframes moveRightToLeft {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-.fading-text {
-    font-size: 40px!important; /* Adjust the font size as needed */
-     font-weight: bold;
-    animation: fadeInOut 2s ease-in-out infinite;
-}
-
-@keyframes fadeInOut {
-    0%, 100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-}
-.bouncing-text {
-    font-size:50px!important;
-    font-weight: bold;
-    animation: bounceUpDown 2s ease infinite;
-}
-
-@keyframes bounceUpDown {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
+.menu {
+    display
