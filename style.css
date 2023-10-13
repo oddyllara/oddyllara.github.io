@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:#00FF00!important; /* Change link color to red on hover ...i have set it to black*/
+    color:#000000!important; /* Change link color to red on hover ...i have set it to black*/
 }
 
 section {
@@ -76,7 +76,7 @@ p {
 }
 
 .cta-button:hover {
-    background: #000000!important; /* Change button background color on hover..i have set it to green */
+    background: #00FF00!important; /* Change button background color on hover..i have set it to green */
 }
 
 
