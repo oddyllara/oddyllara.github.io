@@ -28,8 +28,6 @@ body {
     color: #00FF00; /* Text color is green */
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Hide horizontal overflow */
-    overflow-y: auto; /* Enable vertical scrolling if needed */
 }
 
 header {
@@ -87,7 +85,7 @@ p {
     font-size: 1.2em;
 }
 
-cta-button {
+.cta-button {
     display: inline-block;
     background: #000000;
     color: #FFFFFF;
@@ -99,11 +97,11 @@ cta-button {
     transition: background 0.3s;
 }
 
-cta-button:hover {
+.cta-button:hover {
     background: #000000!important;
 }
 
-image-container {
+.image-container {
     position: relative;
     display: inline-block;
 }
