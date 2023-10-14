@@ -2,8 +2,6 @@
 body, h1, p, ul, li, a {
     margin: 0;
     padding: 0;
-   
-
 }
 
 .moving-text {
@@ -29,8 +27,7 @@ body {
     font-family: 'Arial', sans-serif;
     background: url('https://img.pikbest.com/origin/09/11/11/64IpIkbEsTAHK.png!w700wp') no-repeat center center fixed;
     background-size: cover;
-    color: #00FF00; 
-/* Text color is green */
+    color: #00FF00; /* Text color is green */
 }
 
 header {
@@ -65,16 +62,9 @@ section {
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
-  width: 100%;/* 90% of the viewport width */
-height: 100%;
-     display: flex;
-   
-    
-/*  max-width: 600px;  Limit the maximum width to 600 pixels */
+  width: 90%; /* 90% of the viewport width */
+  max-width: 600px; /* Limit the maximum width to 600 pixels */
 }
-
-
-
 
 }
 
