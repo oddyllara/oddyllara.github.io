@@ -28,6 +28,8 @@ body {
     color: #00FF00; /* Text color is green */
     margin: 0;
     padding: 0;
+     max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
