@@ -6,33 +6,33 @@ body, h1, p, ul, li, a {
 
 .moving-text {
     font-size: 15px;
-  animation: moveText 5s linear infinite;
+    animation: moveText 5s linear infinite;
 }
 
 @keyframes moveText {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(30px); /* Adjust the distance the text should move */
-  }
-  100% {
-    transform: translateX(0);
-  }
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(30px); /* Adjust the distance the text should move */
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
-
-
 
 body {
     font-family: 'Arial', sans-serif;
-    background: url('https://i.imgur.com/lzovoxh.jpg') no-repeat center top fixed;
+    background: url('https://i.imgur.com/lzovoxh.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #00FF00; /* Text color is green */
+    color: #9900CC; /* Text color is light purple */
 }
 
-header {
-    background: rgba(0, 0, 0, 0.7);
+header, footer {
+    background: rgba(0, 0, 0, 1); /* Make header and footer black */
     padding: 10px 0;
+    color: #00FF00;
+    text-align: center;
 }
 
 nav ul {
@@ -53,19 +53,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:#00FF00!important; /* Change link color to red on hover ...i have set it to black*/
+    color: #00FF00!important; /* Change link color to black on hover */
 }
 
 section {
-  background: rgba(0, 0, 0, 0.7);
-  color: #00FF00;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  width: 90%; /* 90% of the viewport width */
-  max-width: 600px; /* Limit the maximum width to 600 pixels */
-}
-
+    background: rgba(0, 0, 0, 0); /* Make sections 100% transparent */
+    color: #9900CC; /* Text color is light purple */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 90%; /* 90% of the viewport width */
+    max-width: 600px; /* Limit the maximum width to 600 pixels */
 }
 
 h1 {
@@ -94,34 +92,24 @@ p {
 }
 
 .cta-button:hover {
-    background: #000000!important; /* Change button background color on hover..i have set it to green */
+    background: #00FF00!important; /* Change button background color on hover */
 }
-
 
 .image-container {
     position: relative;
     display: inline-block;
 }
+
 img {
     max-width: 100%;
     display: block;
 }
-footer {
-    background: rgba(0, 0, 0, 0.7);
-    text-align: center;
-    padding: 10px 0;
-    color: #00FF00;
-    position: absolute;
-    bottom: 20px 0;
-    width: 100%;
-}
+
 /* Your existing CSS code */
-
-
 
 .fading-text {
     font-size: 40px!important; /* Adjust the font size as needed */
-     font-weight: bold;
+    font-weight: bold;
     animation: fadeInOut 2s ease-in-out infinite;
 }
 
@@ -133,8 +121,9 @@ footer {
         opacity: 1;
     }
 }
+
 .bouncing-text {
-    font-size:50px!important;
+    font-size: 50px!important;
     font-weight: bold;
     animation: bounceUpDown 2s ease infinite;
 }
@@ -147,57 +136,44 @@ footer {
         transform: translateY(-20px);
     }
 }
+
 .email-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #000000; /* Change the color to your preference */
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000; /* Change the color to your preference */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Style the email link within the button */
 .email-link {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Hover effect */
 .email-button:hover {
-  background-color: #00FF00; /* Change the color to your preference */
+    background-color: #00FF00; /* Change the color to your preference */
 }
 
 .section {
-  width: 100%; /* Optionally, make sections full width */
-  margin: 10px 0; /* Add vertical spacing between sections */
-  /* Add other section styles as needed */
+    width: 100%; /* Optionally, make sections full width */
+    margin: 10px 0; /* Add vertical spacing between sections */
+    /* Add other section styles as needed */
 }
-/* Your existing CSS rules */
 
 /* Add the responsive code here */
 body {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  display: flex;
-  flex-direction: column; /*this stacs items vertically*/
-  
+    display: flex;
+    flex-direction: column; /* This stacks items vertically */
 }
 
-.header, .footer {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 10px 0;
-  color: #00FF00;
-  text-align: center;
-}
-
-.section {
-  width: 90%; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the section horizontally */
-  /* Add other section styles as needed */
-}
+/* Your existing CSS rules */
