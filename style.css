@@ -29,7 +29,7 @@ body {
 }
 
 header, footer {
-    background: rgba(0, 0, 0, 0); /* Make header and footer 100% transparent */
+   background: transparent; /* Make header and footer 100% transparent */
     color: #000; /* Text color is black */
     padding: 10px 0;
     text-align: center;
