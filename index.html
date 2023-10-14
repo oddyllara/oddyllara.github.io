@@ -1,178 +1,78 @@
-/* Reset some default styles */
-body, h1, p, ul, li, a {
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingChimpenze (CODING EASY)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+            
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="bouncing-text">Hello Everyone.</div>
+        <div class="fading-text">Welcome to CODING  CHIMPENZE Website</div>
+        <p>Explore, Learn, Enjoy!</p>
+        <a href="https://www.youtube.com/@Coding_Chimp" class="cta-button">Visit Channel</a>
+    </section>
+    
+    <section id="hero">
+        <h2>Unlock Your Digital Potential."</h2>
+        <p>We are here to make you a Tech pro.</p>
+        <p>Subscribe now to get more features and perks.</p>
+        <p>Learn JAVA, KOTLIN, WEB DEVELOPMENT, ANDROID DEVELOPMENTand much more @absolutelyfree.</p>
+        <p>We promise to make you a Coding PRO.</p>
+        <p>We have just started our courses on our Youtube Channel and very soon we will release our paid Courses.</p>
+       
+    </section>
+    <section id="hero">
+        <h2>Learn CORE JAVA</h2>
+         <p>Learn CORE JAVA from scratch to Pro Level.</p>
+        <p>You can join our on going courses from here.</p>
+        <a href="https://youtube.com/playlist?list=PLFuuPbZUAX2z0PgW6Cj6kJvPCIK75wcAu&feature=shared" class="cta-button">Learn JAVA</a>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide 100% free Quality content on Coding and Programming.</p>
+        <p>Discover amazing content on our YouTube channel. We provide tutorials, reviews, and entertainment to keep you engaged.</p>
+        <p>We wanted to make the Coding Journey a fun ..thats why even the very Channel name is Catchy and Funny. </p>
+        <p>Say bye to old School Methods and Join now to Study with fun and joy. </p>
+        <p>Come embark your Coding Journey With us. </p>
+    </section>
+    
+  
+    
+<section id="hero">
+    <h2>Navigating Doubts in Coding.</h2>
+       <p>You can go to our Youtube Channel and comment your questions under any ongoing course video and our team will catch you up in 24 hours.</p>
+        <a href="https://youtube.com/shorts/_L3jcNJE564" class="cta-button">Comment us</a>
+</section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+      <button class="email-button">
+    <a href="mailto:javaeasy86@gmail.com" class="email-link">Contact Us</a>
+  </button>
+    </section>
+    
+    <footer>
+     <p class="moving-text">&copy; 2023 CodingChimpenze (CODING EASY)</p>
+        <p style="font-size: small;">All rights reserved. Unauthorized copying or reproduction of content is prohibited. Please respect our intellectual property.</p>
 
-.moving-text {
-    font-size: 15px;
-    animation: moveText 5s linear infinite;
-}
+    </footer>
+    
+  
 
-@keyframes moveText {
-    0% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(30px); /* Adjust the distance the text should move */
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
-body {
-    font-family: 'Arial', sans-serif;
-    background: url('https://i.imgur.com/lzovoxh.jpg') no-repeat center center fixed;
-    color: #FF6B6B; /* Text color is neon red */
-}
-
-header, footer {
-    background: rgba(0, 0, 0, 0); /* Make header and footer 100% transparent */
-    color: #000; /* Text color is black */
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #FF6B6B; /* Neon red text color */
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #FF6B6B!important; /* Change link color to neon red on hover */
-}
-
-section {
-    background: rgba(0, 0, 0, 0.7);
-    color: #FF6B6B; /* Neon red text color */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    width: 90%; /* 90% of the viewport width */
-    max-width: 600px; /* Limit the maximum width to 600 pixels */
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-p {
-    line-height: 1.5;
-    font-size: 1.2em;
-}
-
-cta-button {
-    display: inline-block;
-    background: transparent; /* Transparent button background */
-    color: #FF6B6B; /* Neon red text color */
-    padding: 10px 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-cta-button:hover {
-    background: transparent!important; /* Make button background transparent on hover */
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
-/* Your existing CSS code */
-
-.fading-text {
-    font-size: 40px!important; /* Adjust the font size as needed */
-    font-weight: bold;
-    animation: fadeInOut 2s ease-in-out infinite;
-}
-
-@keyframes fadeInOut {
-    0%, 100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-}
-
-bouncing-text {
-    font-size: 50px!important;
-    font-weight: bold;
-    animation: bounceUpDown 2s ease infinite;
-}
-
-@keyframes bounceUpDown {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
-email-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: transparent; /* Transparent button background */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Style the email link within the button */
-.email-link {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Hover effect */
-.email-button:hover {
-    background-color: transparent; /* Make button background transparent on hover */
-}
-
-.section {
-    width: 100%; /* Optionally, make sections full width */
-    margin: 10px 0; /* Add vertical spacing between sections */
-    /* Add other section styles as needed */
-}
-
-/* Add the responsive code here */
-body {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: column; /* This stacks items vertically */
-}
-
-/* Your existing CSS rules */
+</body>
+</html>
