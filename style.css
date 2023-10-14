@@ -28,7 +28,7 @@ body {
     background: url('https://i.imgur.com/bEAeKCU.png') no-repeat center center fixed;
     background-size: cover;
     color: #00FF00; /* Text color is green */
-     text-align: left;
+     
 }
 
 header {
@@ -65,7 +65,7 @@ section {
   border-radius: 10px;
   width: 90%; /* 90% of the viewport width */
   max-width: 600px; /* Limit the maximum width to 600 pixels */
-     text-align: left;
+     
 }
 
 }
