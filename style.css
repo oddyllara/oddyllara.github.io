@@ -147,4 +147,22 @@ footer {
         transform: translateY(-20px);
     }
 }
+.email-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000; /* Change the color to your preference */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+/* Style the email link within the button */
+.email-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.email-button:hover {
+  background-color: #00FF00; /* Change the color to your preference */
+}
