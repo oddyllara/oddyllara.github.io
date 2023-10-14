@@ -29,7 +29,9 @@ body {
     font-family: 'Arial', sans-serif;
     background: url('https://img.pikbest.com/origin/09/11/11/64IpIkbEsTAHK.png!w700wp') no-repeat center center fixed;
     background-size: cover;
-    color: #00FF00; /* Text color is green */
+    color: #00FF00; 
+overflow-x: hidden;
+/* Text color is green */
 }
 
 header {
