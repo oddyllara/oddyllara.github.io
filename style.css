@@ -166,3 +166,14 @@ footer {
 .email-button:hover {
   background-color: #00FF00; /* Change the color to your preference */
 }
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  
+}
+
+.section {
+  width: 100%; /* Optionally, make sections full width */
+  margin: 10px 0; /* Add vertical spacing between sections */
+  /* Add other section styles as needed */
+}
