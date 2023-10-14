@@ -57,7 +57,7 @@ nav ul li a:hover {
 }
 
 section {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0);
     color: #FF6B6B; /* Neon red text color */
     padding: 20px;
     margin: 20px;
