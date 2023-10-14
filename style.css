@@ -23,7 +23,7 @@ body, h1, p, ul, li, a {
 
 body {
     font-family: 'Arial', sans-serif;
-    background: url('https://i.imgur.com/lzovoxh.jpg') no-repeat center center fixed;
+    background: url('https://i.imgur.com/lzovoxh.jpg') no-repeat center fixed;
     color: #FF6B6B; /* Text color is neon red */
 }
 
