@@ -196,3 +196,8 @@ body {
   text-align: center;
 }
 
+.section {
+  width: 90%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the section horizontally */
+  /* Add other section styles as needed */
+}
