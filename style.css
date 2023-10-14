@@ -2,6 +2,8 @@
 body, h1, p, ul, li, a {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+
 }
 
 .moving-text {
