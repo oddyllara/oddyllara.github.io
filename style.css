@@ -65,8 +65,13 @@ section {
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
-  width: 100%; /* 90% of the viewport width */
-  max-width: 600px; /* Limit the maximum width to 600 pixels */
+  width: 100%;/* 90% of the viewport width */
+height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+/*  max-width: 600px;  Limit the maximum width to 600 pixels */
 }
 
 }
