@@ -166,11 +166,6 @@ footer {
 .email-button:hover {
   background-color: #00FF00; /* Change the color to your preference */
 }
-.container {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  
-}
 
 .section {
   width: 100%; /* Optionally, make sections full width */
@@ -186,3 +181,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  display: flex;
+  flex-direction: column; /*this stacs items vertically*/
+  
+}
+
+.header, .footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+  color: #00FF00;
+  text-align: center;
+}
+
