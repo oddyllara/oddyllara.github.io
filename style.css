@@ -177,3 +177,12 @@ footer {
   margin: 10px 0; /* Add vertical spacing between sections */
   /* Add other section styles as needed */
 }
+/* Your existing CSS rules */
+
+/* Add the responsive code here */
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
